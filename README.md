@@ -121,3 +121,69 @@ public class Car {
 ```
 
 ### These elements collectively contribute to the structure and functionality of a Java program, promoting code organization, reusability, and readability.
+
+## What is a variable?
+
+A variable is a name given to a memory location. It is the basic unit of storage in a program.
+The value stored in a variable can be changed during program execution.
+A variable is only a name given to a memory location; all the operations done on the variable effects that memory location.
+In Java, all the variables must be declared before use.
+
+## How to declare variables?
+
+"type": Type of data that can be stored in this variable = integer(int).
+"name": Name given to the variable = num.
+In this way, a name can only be given to a memory location. It can be assigned values in two ways:
+
+Variable Initialization
+Assigning value by taking input EG BELOW
+
+```
+int num = 1;
+```
+
+value: It is the initial value stored in the variable.
+
+Declaring variables examples:
+
+-    float simpleInterest; - Declaring float variable
+-    int myAge = 19; - Declaring and Initializing integer variable
+-    char firstLetter = 'h'; - Declaring and Initializing character variable
+
+## There are three types of variables in Java:
+
+### Local Variables:
+
+Local variables are declared within a specific method or block and exist only for the duration of that method or block.
+```
+void exampleMethod() {
+    int localVar = 10; // localVar is a local variable
+    // Other code here
+}
+
+```
+
+### Instance Variables:
+
+Instance variables are declared in a class but outside any method. They exist as long as the object of the class exists.
+Example:
+
+```
+public class MyClass {
+    int instanceVar; // instanceVar is an instance variable
+}
+
+```
+
+### Class (Static) Variables:
+
+Class variables, declared with the static keyword, belong to the class rather than any particular instance. They are shared among all instances of the class.
+Example:
+
+```
+public class MyClass {
+    static int classVar; // classVar is a class variable
+}
+
+```
+### These variable types serve different purposes in Java and have different scopes and lifetimes. Local variables are confined to a specific method, instance variables belong to an instance of a class, and class variables are shared among all instances of a class.
