@@ -56,6 +56,68 @@ When you download and install the JDK, you gain access to tools like javac for c
 
 In summary, you write Java code, use the javac compiler to convert it into bytecode, and then run it on the Java Virtual Machine (JVM). The Java Development Kit (JDK) provides the necessary tools for these tasks.
 
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# Typical Structure of a Java program
 
+1.    Package Declaration:
 
+A package declaration is used to organize classes into a specific namespace.
+Example: package com.example.myproject;
+Import Statements:
 
+2.    Import statements bring in classes or packages from other namespaces.
+Example: import java.util.ArrayList;
+Comments:
+
+3.    Comments provide non-executable text to document code.
+Example:
+
+```
+// This is a single-line comment
+
+/* 
+   This is a
+   multi-line comment
+*/
+
+```
+4.    Class Definition:
+
+Class definition outlines the blueprint for creating objects.
+Example:
+```
+public class Car {
+   // Class members go here
+}
+
+```
+5    Attributes:
+
+Attributes represent the characteristics or data members of a class.
+Example:
+```
+public class Car {
+   String model;
+   int year;
+}
+
+```
+6    Methods/Behaviours:
+
+Methods define the actions or behaviors of a class.
+Example:
+
+```
+public class Car {
+   void startEngine() {
+       // Code to start the engine
+   }
+   
+   void drive() {
+       // Code for driving the car
+   }
+}
+
+```
+
+## These elements collectively contribute to the structure and functionality of a Java program, promoting code organization, reusability, and readability.
