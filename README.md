@@ -187,3 +187,55 @@ public class MyClass {
 
 ```
 ### These variable types serve different purposes in Java and have different scopes and lifetimes. Local variables are confined to a specific method, instance variables belong to an instance of a class, and class variables are shared among all instances of a class.
+
+
+# Java Datatype
+
+In Java, a data type is a classification that specifies which type of value a variable can hold. Java has two main categories of data types: primitive data types and reference data types.
+
+## Primitive Data Types:
+
+### int: 
+Used for integer values (e.g., 1, 42, -10).
+### double: 
+Used for floating-point numbers (e.g., 3.14, -0.5, 2.0).
+#### char: 
+Used for a single character (e.g., 'a', '1', '@').
+### boolean: 
+Used for true/false values (e.g., true, false).
+## byte: 
+Used for small integers (usually used in file I/O operations).
+### short: 
+Similar to int, but with a smaller range of values.
+### long: 
+Used for larger integer values, followed by "L" or "l" (e.g., 100000L).
+
+## Reference Data Types:
+
+### Objects: Instances of classes that you create in your code.
+### Arrays: Ordered collections of values of the same type.
+
+Example: 
+```
+public class Example {
+    public static void main(String[] args) {
+        // Primitive data types
+        int age = 25;
+        double salary = 50000.5;
+        char grade = 'A';
+        boolean isStudent = true;
+
+        // Reference data types
+        String name = "John Doe"; // String is a class in Java
+        int[] numbers = {1, 2, 3, 4, 5}; // Array of integers
+    }
+}
+```
+
+In the example above:
+
+-    age, salary, grade, and isStudent are variables with primitive data types.
+-    name is a variable with a reference data type (String).
+-    numbers is a variable with a reference data type (array of integers).
+
+### Understanding and using the appropriate data type is essential for efficient and correct programming in Java.
