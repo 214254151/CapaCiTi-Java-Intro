@@ -212,8 +212,11 @@ Used for larger integer values, followed by "L" or "l" (e.g., 100000L).
 
 ## Reference Data Types:
 
-### Objects: Instances of classes that you create in your code.
-### Arrays: Ordered collections of values of the same type.
+### Objects: 
+Instances of classes that you create in your code.
+
+### Arrays: 
+Ordered collections of values of the same type.
 
 Example: 
 ```
