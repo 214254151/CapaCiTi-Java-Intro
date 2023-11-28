@@ -242,3 +242,83 @@ In the example above:
 -    numbers is a variable with a reference data type (array of integers).
 
 ### Understanding and using the appropriate data type is essential for efficient and correct programming in Java.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+What is GIT
+
+
+Git is a distributed version control system that enables multiple people to collaborate on software development projects. 
+-    It tracks changes to files,
+-    allows users to work on different branches simultaneously,
+-    and facilitates the merging of changes.
+
+Git is widely used for source code management and is known for its speed, flexibility, and support for non-linear development workflows.
+
+## Basic GIT commands
+
+### git init: 
+Initializes a new Git repository in the current directory.
+```
+git init
+```
+### git clone [repository_url]: 
+Creates a copy of a remote repository on your local machine.
+```
+git clone [repository_url]
+
+```
+
+### git add [file]: 
+Adds a file or changes in a file to the staging area.
+```
+git add [file]
+
+```
+
+### git commit -m "[message]": 
+Commits changes in the staging area with a descriptive message.
+```
+git commit -m "Your commit message"
+
+```
+
+### git status: 
+Shows the status of changes as untracked, modified, or staged.
+```
+git status
+```
+
+### git pull: 
+Fetches changes from a remote repository and merges them into the current branch.
+```
+git pull
+```
+
+### git push: 
+Pushes committed changes to a remote repositor
+```
+git push
+```
+### git branch: 
+Lists all local branches, indicating the current branch.
+```
+git branch
+```
+### git checkout [branch_name]
+```
+git checkout [branch_name]: Switches to the specified branch.
+```
+### git merge [branch_name]: 
+Merges changes from the specified branch into the current branch.
+```
+git merge [branch_name]
+
+```
+### git log: 
+Displays a log of commits, showing commit messages, authors, dates, and commit hashes.
+```
+git log
+```
+
+These commands cover some of the essential Git operations. Remember to replace placeholders like [file] and [branch_name] with actual file names or branch names.
