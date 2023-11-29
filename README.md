@@ -322,3 +322,22 @@ git log
 ```
 
 These commands cover some of the essential Git operations. Remember to replace placeholders like [file] and [branch_name] with actual file names or branch names.
+
+
+## Major Benefits of using git:
+
+### Saves Time
+
+Git is lightning fast technology. Each command takes only a few seconds to execute so we can save a lot of time as compared to login to a GitHub account and find out its features.
+
+### Offline Working
+
+One of the most important benefits of Git is that it supports offline working. If we are facing internet connectivity issues, it will not affect our work. In Git, we can do almost everything locally. Comparatively, other CVS like SVN is limited and prefer the connection with the central repository.
+
+### Undo Mistakes
+
+One additional benefit of Git is we can Undo mistakes. Sometimes the undo can be a savior option for us. Git provides the undo option for almost everything.
+
+### Track the Changes
+
+Git facilitates with some exciting features such as Diff, Log, and Status, which allows us to track changes so we can check the status, compare our files or branches.
