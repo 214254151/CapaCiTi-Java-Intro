@@ -342,4 +342,45 @@ One additional benefit of Git is we can Undo mistakes. Sometimes the undo can be
 
 Git facilitates with some exciting features such as Diff, Log, and Status, which allows us to track changes so we can check the status, compare our files or branches.
 
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+# (SDLC) SOFTWARE LIFE CYCLE DEVELOMENT
+
+
+SDLC stands for Software Development Life Cycle. It is a systematic process or framework used by software developers to design, develop, test, and deploy software. The SDLC aims to produce high-quality software that meets or exceeds customer expectations. Here are the key stages of the SDLC:
+
+1.    Planning:
+
+Objective: Define the project scope, requirements, budget, and timeline.
+Example: Gathering requirements for a new e-commerce website, outlining features, and setting a project timeline.
+
+2.    Analysis:
+
+Objective: Analyze the gathered requirements to understand the needs of end-users and the system.
+Example: Creating use cases, defining data flow diagrams, and understanding user workflows for the e-commerce website.
+
+3.    Design:
+
+Objective: Create a blueprint for the software, including architecture, database design, and user interface.
+Example: Designing the database schema, system architecture, and user interface wireframes for the e-commerce website.
+
+4.    Implementation (Coding):
+
+Objective: Write the actual code based on the design specifications.
+Example: Writing the source code for the e-commerce website, including server-side and client-side components.
+
+5.    Testing:
+
+Objective: Verify that the software works correctly and meets the specified requirements.
+Example: Performing unit tests, integration tests, and system tests for the e-commerce website to identify and fix bugs.
+
+6.    Deployment:
+
+Objective: Release the software for use by end-users.
+Example: Deploying the e-commerce website to a production server and making it accessible to the public.
+
+7.    Maintenance and Support:
+
+Objective: Address issues, add new features, and ensure the ongoing functionality and performance of the software.
+Example: Releasing updates for the e-commerce website, fixing bugs, and providing customer support.
+It's important to note that the SDLC is not strictly linear, and various models (e.g., waterfall, agile) adapt these stages differently. The choice of the SDLC model depends on the project requirements, timeline, and flexibility needed during development.
